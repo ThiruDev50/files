@@ -5,13 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Genetom Code editor</title>
-    <link rel="stylesheet" href="./genetom-code-editor.css">
+    <script>
+        let customElementTag = "genetom-code-editor";
+        // For dynamically loading JS
+        function loadScript(url, callback) {
+            const script = document.createElement('script');
+            script.src = url;
+            script.onload = callback;
+            document.head.appendChild(script);
+        }
 
-    <script src="./genetom-code-editor.js"></script>
+        // For dynamically loading CSS
+        function loadStylesheet(url) {
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = url;
+            document.head.appendChild(link);
+        }
+
+        //Getting BaseURL
+        function getBaseURL() {
+            return window.location.href.replace(/\/[^\/]*$/, '/');
+        }
+
+        // Load the CSS and JS files dynamically
+        document.addEventListener('DOMContentLoaded', () => {
+            const baseURL = getBaseURL();
+            console.log("BaseURL",baseURL)
+            // Load the CSS
+            loadStylesheet(baseURL + `${customElementTag}.css`);
+
+            // Load the custom element script and then add the custom element to the DOM
+            loadScript(baseURL + `${customElementTag}.js`, function () {
+                const container = document.getElementById('container');
+                const editor = document.createElement(customElementTag);
+                container.appendChild(editor);
+            });
+        });
+    </script>
 </head>
 
 <body>
-    <genetom-code-editor></genetom-code-editor>
+    <div id="container"></div>
 </body>
 
 </html>
