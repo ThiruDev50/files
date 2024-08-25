@@ -18,4 +18,11 @@ Changes:
     - Resolution fix for lower Changes
     - Duplicate auto generated tabs name fix 
     - Execution of config languages fix 
-    
+
+========================================================
+Date 25-August-2024
+Version : v3
+Branch : release/v3_25_Aug_2024
+Changes:
+    - Scrolling inside editor 
+    - Added Close all & Remove All 

@@ -3,7 +3,7 @@
         "ComponentUrl": "code-editor",
         "ComponentTag": "genetom-code-editor",
         "AssetBaseUrl": "https://thirudev50.github.io/files/devtools/genetom-code-editor",
-        "Version": "v2",
+        "Version": "v3",
         "JsFileName": "genetom-code-editor.js",
         "CssFileName": "genetom-code-editor.css",
         "LoaderLabel": "Genetom Code Editor is loading."
