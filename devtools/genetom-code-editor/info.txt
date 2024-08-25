@@ -1,0 +1,21 @@
+Run :
+    Cant Just open the html in file to run JS/TS , So run the files in a port - http-server -p -6969
+
+
+========================================================
+Date 16-August-2024
+Version : v1
+Branch : release/v1_16_Aug_2024
+Changes:
+    Introducing Genetom code editor
+
+
+========================================================
+Date 25-August-2024
+Version : v2
+Branch : release/v2_25_Aug_2024
+Changes:
+    - Resolution fix for lower Changes
+    - Duplicate auto generated tabs name fix 
+    - Execution of config languages fix 
+    
