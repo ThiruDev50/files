@@ -1,0 +1,8 @@
+{
+    "useAzureFunctions": false,
+    "azureFunctionsBaseUrl":"https://chakramfunctionapp.azurewebsites.net/api",
+    "supabase":{
+        "projectId":"https://hbcxxuqccscrelbkwszk.supabase.co",
+        "anonKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhiY3h4dXFjY3NjcmVsYmt3c3prIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzE2MDg1MDYsImV4cCI6MjA0NzE4NDUwNn0.PHS629HBLqh9OIhWjaanIirYfPGK9PN4d1uVv12KmYk"
+    }
+}
