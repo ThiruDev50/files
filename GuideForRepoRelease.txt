@@ -1,0 +1,37 @@
+----------------------------------------------------------------------------------------------
+		
+		Product      ( repo for hosted)
+		Product-code ( repo for dev)
+		Product-Service (Supporting repo for service for same project)        
+        
+----------------------------------------------------------------------------------------------
+		
+		Issues with the product:
+			- Future Features || Suggesions
+			- Bug Reported 
+		
+		Everything has to be registered in Hosted Repo (Issues, bugs etc),
+		So others can also track those
+
+----------------------------------------------------------------------------------------------
+		
+		- Release tag should be created for each release with same version release branch in th respective repo (Hosted & Dev & Service etc)
+		- If release branch is release/v3.2.7 then a release tag should be v3.2.7, So with release branch or release tag we can identify easily.
+		- Hosted component & dev component can have different release version for the same feature release
+		
+        Changes.txt (Hosted)
+			Date:  
+			Release branch:
+			{Component} Release branch:
+			Changes:
+				--
+				--
+				
+		Changes.txt (Dev)
+			Date:
+			Release branch:
+			Changes:
+				--
+				--
+----------------------------------------------------------------------------------------------
+				
