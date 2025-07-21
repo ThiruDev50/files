@@ -37,3 +37,14 @@ Changes:
     - Hide/Console & Enable Btn [Done]
     - Console in Browser Devtools [Done]
     - Min width for total window, Min height for Console/Editor header [Done]
+========================================================
+Date : 21/July/2025
+Version : v4.1
+Branch : release/v4.1_21_July_2025
+Changes:
+    - Majorly focus on bugs
+    - Editor is breaking when we console undefined - Fixed
+    - Run button enabled for Non-Executing language if Console is hidden - Fixed 
+    - Even commented code are still part of execution - Not able to reproduce
+    - console.error now treats as error 
+    - Different color in logs for console.log, console.warn, console.error

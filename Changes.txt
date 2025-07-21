@@ -1,0 +1,13 @@
+Date: 21/July/2025
+Version: 
+Release branch:
+Component name: Genetom-Code-Editor
+Component version: v4.1
+Component release branch: release/v4.1_21_July_2025
+Changes:
+    - Majorly focus on bugs
+    - Editor is breaking when we console undefined - Fixed
+    - Run button enabled for Non-Executing language if Console is hidden - Fixed 
+    - Even commented code are still part of execution - Not able to reproduce
+    - console.error now treats as error 
+    - Different color in logs for console.log, console.warn, console.error
