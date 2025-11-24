@@ -1,0 +1,55 @@
+{
+  "SupabaseConfig": {
+    "SupabaseProjectId": "puiyzqwowggptueokohe",
+    "SupabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InB1aXl6cXdvd2dncHR1ZW9rb2hlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjM5MDcyNjAsImV4cCI6MjA3OTQ4MzI2MH0.PHdxAX3XunmF_M_TT2xPOlQU6cMCMtTmEZ1QE1XSnJA",
+    "EnableReportLogsToServer": false,
+    "CollectVisitorData": false
+  },
+  "HeroButtonPrimary": {
+    "text": "Zenodo prerint",
+    "url": "https://zenodo.org/records/17525697",
+    "isExternal": true
+  },
+  "HeroButtonSecondary": {
+    "text": "View paper",
+    "url": "https://thirudev50.github.io/files/cbrt/Cube_Root_By_Long_Division.pdf",
+    "isExternal": true
+  },
+  "ImportantLinks": [
+    {
+      "id": "main-publication",
+      "title": "Research Paper: Cube Root by Long Division Method",
+      "url": "https://thirudev50.github.io/files/cbrt/Cube_Root_By_Long_Division.pdf",
+      "description": "Detailed mathematical explanation and proof of the cube root extraction method using long division.",
+      "categories": [
+        { "name": "Publication", "textColor": "text-blue-700", "bgColor": "bg-blue-100" },
+        { "name": "Featured", "textColor": "text-yellow-700", "bgColor": "bg-yellow-100" }
+      ],
+      "iconName": "FileText",
+      "isExternal": true
+    },
+    {
+      "id": "zenodo-link",
+      "title": "zenodo-preprint",
+      "url": "https://zenodo.org/records/17525697",
+      "description": "Official preprint featuring this methodology.",
+      "categories": [
+        { "name": "Pre-Print", "textColor": "text-yellow-700", "bgColor": "bg-yellow-100" },
+        { "name": "Publication", "textColor": "text-blue-700", "bgColor": "bg-blue-100" }
+      ],
+      "iconName": "BookOpen",
+      "isExternal": true
+    },
+    {
+      "id": "github-repo",
+      "title": "GitHub Repository",
+      "url": "https://github.com/ThiruDev50/cbrt",
+      "description": "The repo contains final build for website",
+      "categories": [
+        { "name": "Code", "textColor": "text-gray-700", "bgColor": "bg-gray-100" }
+      ],
+      "iconName": "Github",
+      "isExternal": true
+    }
+  ]
+}
