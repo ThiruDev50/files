@@ -1,11 +1,32 @@
 [
-    {
-        "ComponentUrl": "code-editor",
-        "ComponentTag": "genetom-code-editor",
-        "AssetBaseUrl": "https://thirudev50.github.io/files/devtools/genetom-code-editor",
-        "Version": "v4.1",
-        "JsFileName": "genetom-code-editor.js",
-        "CssFileName": "genetom-code-editor.css",
-        "LoaderLabel": "Genetom Code Editor is loading."
+  {
+    "ComponentUrl": "code-editor",
+    "ComponentTag": "genetom-code-editor",
+    "AssetBaseUrl": "https://thirudev50.github.io/files/devtools/genetom-code-editor",
+    "Version": "v4.1",
+    "JsFileName": "genetom-code-editor.js",
+    "CssFileName": "genetom-code-editor.css",
+    "LoaderLabel": "Genetom Code Editor is loading."
+  },
+  {
+    "ComponentUrl": "clipsync",
+    "ComponentTag": "genetom-clipsync",
+    "AssetBaseUrl": "https://thirudev50.github.io/files/devtools/genetom-clipsync",
+    "Version": "dist",
+    "JsFileName": "genetom-clipsync.js",
+    "CssFileName": "genetom-clipsync.css",
+    "LoaderLabel": "Genetom Clipsync is loading.",
+    "SubPath": "contextid",
+    "StrictSubPathMatch": false,
+    "Config": {
+      "baseUrl": "https://chakaramapi.azurewebsites.net",
+      "timeKey": "YourSecretKey12345678901234567890",
+      "uploads": {
+        "maxFiles": 10,
+        "maxScreenshotFiles": 20,
+        "maxSizeFileInBytes": 734003200,
+        "maxScreenshotSizeFileInBytes": 10485760
+      }
     }
+  }
 ]
