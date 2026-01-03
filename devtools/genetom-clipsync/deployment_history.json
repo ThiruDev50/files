@@ -1,5 +1,12 @@
 [
   {
+    "commitId": "d10e06d55e8077a07cbd8ab75047fbfe260be548",
+    "commitShort": "d10e06d",
+    "branch": "main",
+    "deployedAt": "2026-01-03T16:03:46Z",
+    "commitMessage": "Redirect with query params fix"
+  },
+  {
     "commitId": "5ba19353d2874434676a17c8e7a400a756a24a98",
     "commitShort": "5ba1935",
     "branch": "main",

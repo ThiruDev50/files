@@ -34067,14 +34067,12 @@ const mD = new A9(), _9 = (t) => {
   window.location.hash = a, t && window.location.reload();
 }, R9 = (t, e = !1) => {
   const n = window.location.hash;
-  if (!n || n === "#") {
-    window.location.hash = `#/${t}`, e && window.location.reload();
+  if (!n || n === "#")
     return;
-  }
-  const a = n.substring(1).split("/").filter(Boolean);
-  a.length > 1 && a.pop(), a.push(t);
-  const l = "/" + a.join("/");
-  window.location.hash = l, e && window.location.reload();
+  const r = n.substring(1), [a, l] = r.split("?"), c = a.split("/").filter(Boolean);
+  c.length > 1 && c.pop(), c.push(t);
+  const f = "/" + c.join("/"), d = l ? `${f}?${l}` : f;
+  window.location.hash = d, e && window.location.reload();
 }, o_ = O.createContext(void 0), k9 = [1, 3, 5, 10, 30, 60, 180, 300], N9 = ({ children: t }) => {
   const e = O.useRef(/* @__PURE__ */ new Map()), n = O.useCallback((c) => {
     const f = e.current.get(c);
@@ -38139,7 +38137,7 @@ const Uo = qo.getInstance(), dU = (t) => {
   }, []), /* @__PURE__ */ F.jsxs(F.Fragment, { children: [
     /* @__PURE__ */ F.jsx("div", { className: kr(
       "flex flex-col ml-5 mr-5",
-      (S.length > 0 || W.length > 0) && !e ? "h-[calc(82vh-60px)]" : "h-[calc(93vh-60px)]"
+      (S.length > 0 || W.length > 0) && !e ? "h-[calc(85vh-60px)]" : "h-[calc(96vh-60px)]"
     ), children: /* @__PURE__ */ F.jsxs("div", { className: "flex-1 flex flex-col min-h-0 p-3 sm:p-5 bg-[var(--color-gray-dark-200)] border border-[var(--color-gray-dark-400)] rounded-lg", children: [
       /* @__PURE__ */ F.jsxs("div", { className: "flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 mb-3 sm:mb-4 pb-3 border-b border-[var(--color-gray-dark-400)]", children: [
         /* @__PURE__ */ F.jsx("div", { className: "flex items-center ", children: /* @__PURE__ */ F.jsx("div", { children: /* @__PURE__ */ F.jsxs("div", { className: "flex items-center ", children: [
