@@ -1,5 +1,19 @@
 # 📦 CHANGE LOGS
+---
 
+## 🚀 Release v2.0.0  
+**Date:** 15 Jan 2026
+**Branch:** `release/v2.0.0`
+
+### ✨ Changes
+- Live mode using YJS
+- Share context via mail
+- Asynchronus progressive pasting
+- Max limit for pasting in live mode
+- Can hover on time icon for expiration
+- Encryption of contexts
+- Minor UI fix
+---
 ---
 
 ## 🚀 Release v1.0.0  

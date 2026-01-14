@@ -1,8 +1,8 @@
 {
-  "commitId": "326c2042ce870b765c6dda9e1b5e335d3320bd3b",
-  "commitShort": "326c204",
-  "branch": "main",
-  "deployedAt": "2026-01-14T15:00:01Z",
-  "commitMessage": "Basic context encryption + Small UI fixes",
+  "commitId": "a461163716e9db60e66d10ba21ddedd6c998abf2",
+  "commitShort": "a461163",
+  "branch": "release/v2.0.0",
+  "deployedAt": "2026-01-14T19:06:17Z",
+  "commitMessage": "Short lived Sas",
   "repository": "ThiruDev50/clipsync-react"
 }
