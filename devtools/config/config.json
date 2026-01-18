@@ -21,7 +21,7 @@
           "Text": "Secure",
           "TextColor": "#FFFFFF",
           "BackgroundColor": "#10773b"
-        },
+        }
       ],
       "IconSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><title>ClipSync</title><path d=\"M20,4 L20,2 C20,1.4 19.6,1 19,1 L13,1 C12.4,1 12,1.4 12,2 L12,4 L8,4 C6.9,4 6,4.9 6,6 L6,28 C6,29.1 6.9,30 8,30 L24,30 C25.1,30 26,29.1 26,28 L26,6 C26,4.9 25.1,4 24,4 L20,4 Z M14,3 L18,3 L18,5 L14,5 L14,3 Z M24,28 L8,28 L8,6 L10,6 L10,7 L22,7 L22,6 L24,6 L24,28 Z\" style=\"fill:#37996B\"/><path d=\"M12,14 L14,12 L14,13.5 C15.4,13.5 16.5,14.6 16.5,16 C16.5,17.4 15.4,18.5 14,18.5 L14,17 C14.6,17 15,16.6 15,16 C15,15.4 14.6,15 14,15 L14,16.5 L12,14 Z\" style=\"fill:#37996B\"/><path d=\"M20,18 L18,20 L18,18.5 C16.6,18.5 15.5,17.4 15.5,16 C15.5,14.6 16.6,13.5 18,13.5 L18,15 C17.4,15 17,15.4 17,16 C17,16.6 17.4,17 18,17 L18,15.5 L20,18 Z\" style=\"fill:#37996B\"/><circle cx=\"13\" cy=\"23\" r=\"1.5\" style=\"fill:#37996B\"/><circle cx=\"16\" cy=\"23\" r=\"1.5\" style=\"fill:#37996B\"/><circle cx=\"19\" cy=\"23\" r=\"1.5\" style=\"fill:#37996B\"/></svg>",
       "CanLaunchApp": true,
@@ -32,7 +32,7 @@
         "Share via email or QR code",
         "Set expiries & revoke anytime",
         "Logged-in users can upload files",
-        "Live mode with viewers & contributors",
+        "Live mode with viewers & contributors"
       ],
       "Status": {
         "Text": "",
