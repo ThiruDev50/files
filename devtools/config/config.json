@@ -1,4 +1,153 @@
 {
-    "SupabaseProjectUrl":"https://kwtaqlnsubythinvmzhc.supabase.co",
-    "SupabaseAnonKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imt3dGFxbG5zdWJ5dGhpbnZtemhjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzU5NTE4MzQsImV4cCI6MjA1MTUyNzgzNH0.w7e-S9ZFlPX_Um5CAtAXeOA9ltvzXNLU1Vtu2KP05Lw"
+  "SupabaseProjectUrl": "https://kwtaqlnsubythinvmzhc.supabase.co",
+  "SupabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imt3dGFxbG5zdWJ5dGhpbnZtemhjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzU5NTE4MzQsImV4cCI6MjA1MTUyNzgzNH0.w7e-S9ZFlPX_Um5CAtAXeOA9ltvzXNLU1Vtu2KP05Lw",
+  "Apps": [
+    {
+      "CompId": "clipsync",
+      "Name": "ClipSync",
+      "Desc": "Share contexts, files, and screenshots instantly with snapshot mode, or collaborate in real-time with live mode. Full control over access, expiration, and permissions. Encrypted context ensures only authorized users can view it.",
+      "Tags": [
+        {
+          "Text": "Context sharing",
+          "TextColor": "#FFFFFF",
+          "BackgroundColor": "#4f15a8"
+        },
+        {
+          "Text": "Collaboration",
+          "TextColor": "#FFFFFF",
+          "BackgroundColor": "#2563EB"
+        },
+        {
+          "Text": "Secure",
+          "TextColor": "#FFFFFF",
+          "BackgroundColor": "#10773b"
+        },
+      ],
+      "IconSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><title>ClipSync</title><path d=\"M20,4 L20,2 C20,1.4 19.6,1 19,1 L13,1 C12.4,1 12,1.4 12,2 L12,4 L8,4 C6.9,4 6,4.9 6,6 L6,28 C6,29.1 6.9,30 8,30 L24,30 C25.1,30 26,29.1 26,28 L26,6 C26,4.9 25.1,4 24,4 L20,4 Z M14,3 L18,3 L18,5 L14,5 L14,3 Z M24,28 L8,28 L8,6 L10,6 L10,7 L22,7 L22,6 L24,6 L24,28 Z\" style=\"fill:#37996B\"/><path d=\"M12,14 L14,12 L14,13.5 C15.4,13.5 16.5,14.6 16.5,16 C16.5,17.4 15.4,18.5 14,18.5 L14,17 C14.6,17 15,16.6 15,16 C15,15.4 14.6,15 14,15 L14,16.5 L12,14 Z\" style=\"fill:#37996B\"/><path d=\"M20,18 L18,20 L18,18.5 C16.6,18.5 15.5,17.4 15.5,16 C15.5,14.6 16.6,13.5 18,13.5 L18,15 C17.4,15 17,15.4 17,16 C17,16.6 17.4,17 18,17 L18,15.5 L20,18 Z\" style=\"fill:#37996B\"/><circle cx=\"13\" cy=\"23\" r=\"1.5\" style=\"fill:#37996B\"/><circle cx=\"16\" cy=\"23\" r=\"1.5\" style=\"fill:#37996B\"/><circle cx=\"19\" cy=\"23\" r=\"1.5\" style=\"fill:#37996B\"/></svg>",
+      "CanLaunchApp": true,
+      "FallBackLaunchBtnText": "Launch ClipSync",
+      "FeatureHighlights": [
+        "Encrypted and secure",
+        "Anyone can create Snapshot",
+        "Share via email or QR code",
+        "Set expiries & revoke anytime",
+        "Logged-in users can upload files",
+        "Live mode with viewers & contributors",
+      ],
+      "Status": {
+        "Text": "",
+        "TextColor": "#FFFFFF",
+        "BackgroundColor": "#37996B"
+      }
+    },
+    {
+      "CompId": "dbschema",
+      "Name": "DB Schema",
+      "Desc": "Design, version, and manage database schemas effortlessly with auto-save and one-click HTML export.",
+      "Tags": [
+        {
+          "Text": "Database",
+          "TextColor": "#FFFFFF",
+          "BackgroundColor": "#2563EB"
+        },
+        {
+          "Text": "Schema Design",
+          "TextColor": "#FFFFFF",
+          "BackgroundColor": "#10773b"
+        }
+      ],
+      "IconSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='#37996B' stroke-width='1.2' stroke-linecap='square'><rect x='9' y='3' width='4' height='4'/><rect x='9' y='10' width='4' height='4'/><rect x='9' y='17' width='4' height='4'/><rect x='17' y='10' width='4' height='4'/><path d='M11 7v3M11 14v3M13 12h4'/></svg>",
+      "CanLaunchApp": true,
+      "FallBackLaunchBtnText": "Coming Soon",
+      "FeatureHighlights": [
+        "Export schema as HTML",
+        "Auto-save in browser local storage",
+        "Save multiple versions in a single file",
+        "Visual drag-and-drop schema design",
+        "Import existing database schemas",
+        "Offline-first, no internet required"
+      ],
+      "Status": {
+        "Text": "",
+        "TextColor": "",
+        "BackgroundColor": ""
+      }
+    },
+    {
+      "CompId": "data-generator",
+      "Name": "QuickData",
+      "Desc": "Introducing Genetom Data Generator! Easily create dummy JSON data for your models. Just provide your model type and data size, and get data tailored to your needs instantly.",
+      "Tags": [
+        {
+          "Text": "AI",
+          "TextColor": "#FFFFFF",
+          "BackgroundColor": "#2563EB"
+        },
+        {
+          "Text": "Data",
+          "TextColor": "#FFFFFF",
+          "BackgroundColor": "#37996B"
+        },
+        {
+          "Text": "Generator",
+          "TextColor": "#FFFFFF",
+          "BackgroundColor": "#8e44ad"
+        }
+      ],
+      "IconSvg": "<svg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 654.758 654.758' style='enable-background:new 0 0 654.758 654.758;' xml:space='preserve'><g><path d='M443.398,75.359l17.515-29.437c3.974-7.139,12.732-9.567,19.87-5.593c7.138,3.974,9.567,12.732,5.593,19.87l-17.515,29.437c-2.355,4.784-7.948,7.139-12.732,7.139c-2.355,0-4.784-0.81-7.138-1.619C441.779,91.255,439.424,82.571,443.398,75.359z M185.896,89.71c2.355,4.784,7.948,7.139,12.732,7.139c2.355,0,4.784-0.81,7.139-1.619c7.139-3.974,9.567-12.732,5.593-19.87l-17.515-29.437c-3.974-7.139-12.732-9.567-19.87-5.593s-9.567,12.732-5.593,19.87L185.896,89.71z M327.342,62.701c7.948,0,14.277-6.329,14.277-14.277V14.277C341.619,6.329,335.29,0,327.342,0c-7.948,0-14.277,6.329-14.277,14.277v34.147C312.255,56.299,318.584,62.701,327.342,62.701z M69.84,290.766H35.693c-7.948,0-14.277,6.329-14.277,14.277c0,7.948,6.329,14.277,14.277,14.277H69.84c7.948,0,14.277-6.329,14.277-14.277S77.788,290.766,69.84,290.766z M619.065,290.766h-34.147c-7.948,0-14.277,6.329-14.277,14.277c0,7.948,6.329,14.277,14.277,14.277h34.147c7.948,0,14.277-6.329,14.277-14.277S627.013,290.766,619.065,290.766z M592.792,152.485c-3.974-7.139-12.732-9.567-19.87-5.593l-29.437,17.515c-7.138,3.974-9.567,12.732-5.593,19.87c2.355,4.784,7.948,7.139,12.732,7.139c2.355,0,4.784-0.81,7.138-1.619l29.437-17.515C594.411,168.381,596.766,159.623,592.792,152.485z M514.931,303.498c0,32.602-8.758,64.394-24.654,93.022c-0.809,2.355-1.619,3.974-3.165,5.593l-1.619,2.355c-6.329,9.567-12.732,19.061-20.68,27.009c-27.818,38.931-42.095,72.342-41.359,93.758v0.81c0,1.619,0.81,3.974,0.81,6.329v68.368c0,30.173-24.654,54.017-54.017,54.017h-88.164c-30.173,0-54.017-24.654-54.017-54.017v-68.368c0-1.619,0-2.355,0-3.974c0-0.81,0-2.355,0-3.164c0.81-20.68-13.541-53.281-39.74-91.403c-8.758-9.567-17.515-19.87-23.844-31.792c-0.809-1.619-1.619-2.355-2.355-3.974c-16.706-28.628-25.463-61.229-25.463-93.758c0-104.134,85.074-189.134,189.134-189.134C429.857,114.364,514.931,199.364,514.931,303.498z M394.9,540.32H257.429v27.009H394.9V540.32L394.9,540.32z M394.9,602.359v-5.593H257.429v5.593c1.619,12.732,11.922,22.225,24.654,22.225h88.238C382.978,624.584,393.355,615.091,394.9,602.359z M485.493,303.498c0-88.238-71.532-159.771-159.771-159.771S165.952,215.26,165.952,303.498c0,28.628,7.948,56.446,22.225,81.1l0,0c0,0,0,0,0,0.809c6.329,10.303,13.541,19.87,21.489,28.628c0.81,0.81,0.81,0.81,1.619,1.619c26.199,37.385,41.359,69.177,45.333,95.377H395.71c4.784-32.602,27.009-69.913,46.879-97.732c0-0.81,0.81-0.81,1.619-1.619c7.139-7.139,13.541-15.896,18.251-24.654c0-0.81,0.81-0.81,0.81-1.619c0-0.81,0.81-0.809,0.81-1.619C478.355,359.944,485.493,332.126,485.493,303.498z M111.199,164.407l-29.437-17.515c-7.139-3.974-15.896-1.619-19.87,5.593c-3.974,7.139-1.619,15.896,5.593,19.87l29.437,17.515c2.355,1.619,4.784,1.619,7.139,1.619c4.784,0,10.303-2.355,12.732-7.139C120.693,177.139,118.338,168.381,111.199,164.407z' style='fill:#37996B' /></g></svg>",
+      "CanLaunchApp": false,
+      "FallBackLaunchBtnText": "Coming Soon!",
+      "FeatureHighlights": [
+        "Generate dummy JSON instantly",
+        "Supports multiple model types",
+        "Custom data size",
+        "Quick & easy workflow",
+        "Preview before download",
+        "No coding required"
+      ],
+      "Status": {
+        "Text": "Coming Soon",
+        "TextColor": "#FFFFFF",
+        "BackgroundColor": "#37996B"
+      }
+    },
+    {
+      "CompId": "code-editor",
+      "Name": "Code Editor",
+      "Desc": "Introducing Genetom Code Editor, your all-in-one solution for coding and execution. Whether you’re writing JavaScript or TypeScript, compiling directly in the browser, or using Piston API for other languages like C++, Java, and Python 3, Genetom has you covered. Enjoy features like auto-saving, file management, and download options. Streamline your coding workflow with Genetom Code Editor today!",
+      "Tags": [
+        {
+          "Text": "Development",
+          "TextColor": "#FFFFFF",
+          "BackgroundColor": "#10773b"
+        },
+        {
+          "Text": "Execution",
+          "TextColor": "#FFFFFF",
+          "BackgroundColor": "#4f15a8"
+        },
+        {
+          "Text": "No Setup Needed",
+          "TextColor": "#FFFFFF",
+          "BackgroundColor": "#2563EB"
+        }
+      ],
+      "IconSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M4.014,14.976a2.51,2.51,0,0,0,1.567-.518A2.377,2.377,0,0,0,6.386,13.1,15.261,15.261,0,0,0,6.6,10.156q.012-2.085.075-2.747a5.236,5.236,0,0,1,.418-1.686,3.025,3.025,0,0,1,.755-1.018A3.046,3.046,0,0,1,9,4.125,6.762,6.762,0,0,1,10.544,4h.7V5.96h-.387a2.338,2.338,0,0,0-1.723.468A3.4,3.4,0,0,0,8.709,8.52a36.054,36.054,0,0,1-.137,4.133,4.734,4.734,0,0,1-.768,2.06A4.567,4.567,0,0,1,6.1,16a3.809,3.809,0,0,1,1.992,1.754,8.861,8.861,0,0,1,.618,3.865q0,2.435.05,2.9A1.755,1.755,0,0,0,9.264,25.7a2.639,2.639,0,0,0,1.592.337h.387V28h-.7a5.655,5.655,0,0,1-1.773-.2,2.97,2.97,0,0,1-1.324-.93,3.353,3.353,0,0,1-.681-1.63A24.175,24.175,0,0,1,6.6,22.006,16.469,16.469,0,0,0,6.386,18.9a2.408,2.408,0,0,0-.805-1.361,2.489,2.489,0,0,0-1.567-.524Z' style='fill:#37996B'/><path d='M27.986,17.011a2.489,2.489,0,0,0-1.567.524,2.408,2.408,0,0,0-.805,1.361,16.469,16.469,0,0,0-.212,3.109,24.175,24.175,0,0,1-.169,3.234,3.353,3.353,0,0,1-.681,1.63,2.97,2.97,0,0,1-1.324.93,5.655,5.655,0,0,1-1.773.2h-.7V26.04h.387a2.639,2.639,0,0,0,1.592-.337,1.755,1.755,0,0,0,.506-1.186q.05-.462.05-2.9a8.861,8.861,0,0,1,.618-3.865A3.809,3.809,0,0,1,25.9,16a4.567,4.567,0,0,1-1.7-1.286,4.734,4.734,0,0,1-.768-2.06,36.054,36.054,0,0,1-.137-4.133,3.4,3.4,0,0,0-.425-2.092,2.338,2.338,0,0,0-1.723-.468h-.387V4h.7A6.762,6.762,0,0,1,23,4.125a3.046,3.046,0,0,1,1.149.581,3.025,3.025,0,0,1,.755,1.018,5.236,5.236,0,0,1,.418,1.686q.062.662.075,2.747a15.261,15.261,0,0,0,.212,2.947,2.377,2.377,0,0,0,.805,1.355,2.51,2.51,0,0,0,1.567.518Z' style='fill:#37996B'/></svg>",
+      "CanLaunchApp": true,
+      "FallBackLaunchBtnText": "Launch Code Editor",
+      "FeatureHighlights": [
+        "Execute JS/TS within browser",
+        "Supports 10+ languages",
+        "AutoSave, Download and much more",
+        "Real-time code execution",
+        "Syntax highlighting & linting",
+        "Quick Execution"
+      ],
+      "Status": {
+        "Text": "",
+        "TextColor": "",
+        "BackgroundColor": ""
+      }
+    }
+  ]
 }
