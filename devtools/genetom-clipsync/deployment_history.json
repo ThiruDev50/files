@@ -1,5 +1,12 @@
 [
   {
+    "commitId": "895434e0d2386f18c9663871e350af552ee0b7da",
+    "commitShort": "895434e",
+    "branch": "release/v2.1.0",
+    "deployedAt": "2026-02-25T06:32:04Z",
+    "commitMessage": "Live mode sending entire data"
+  },
+  {
     "commitId": "a461163716e9db60e66d10ba21ddedd6c998abf2",
     "commitShort": "a461163",
     "branch": "release/v2.0.0",

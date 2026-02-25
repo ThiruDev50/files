@@ -1,6 +1,16 @@
 # 📦 CHANGE LOGS
 ---
 
+## 🚀 Release v2.1.0  
+**Date:** 25 Feb 2026
+**Branch:** `release/v2.1.0`
+
+### ✨ Changes
+- Live mode - sending entire doc
+- New cron job for wakeup api
+---
+---
+
 ## 🚀 Release v2.0.0  
 **Date:** 15 Jan 2026
 **Branch:** `release/v2.0.0`
@@ -14,7 +24,7 @@
 - Encryption of contexts
 - Minor UI fix
 ---
----
+
 
 ## 🚀 Release v1.0.0  
 **Date:** 03 Jan 2026
