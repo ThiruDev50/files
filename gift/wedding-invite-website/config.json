@@ -1,0 +1,74 @@
+{
+  "Supabase":{
+    "Endpoint":"https://puiyzqwowggptueokohe.supabase.co/functions/v1/wed-inv-visits",
+    "Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InB1aXl6cXdvd2dncHR1ZW9rb2hlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjM5MDcyNjAsImV4cCI6MjA3OTQ4MzI2MH0.PHdxAX3XunmF_M_TT2xPOlQU6cMCMtTmEZ1QE1XSnJA"
+  },
+  "Gallery": {
+    "RowA": [
+      {
+        "src": "https://picsum.photos/id/1015/900/1200",
+        "caption": "Where it all began",
+        "orientation": "portrait"
+      },
+      {
+        "src": "https://picsum.photos/id/1043/1200/800",
+        "caption": "Golden hour",
+        "orientation": "landscape"
+      },
+      {
+        "src": "https://picsum.photos/id/1025/900/1200",
+        "caption": "Two hearts, one story",
+        "orientation": "portrait"
+      },
+      {
+        "src": "https://picsum.photos/id/1062/1200/800",
+        "caption": "Forever & always",
+        "orientation": "landscape"
+      },
+      {
+        "src": "https://picsum.photos/id/1074/900/1200",
+        "caption": "Little moments",
+        "orientation": "portrait"
+      },
+      {
+        "src": "https://picsum.photos/id/1084/1200/800",
+        "caption": "Adventures ahead",
+        "orientation": "landscape"
+      }
+    ],
+    "RowB": [
+      {
+        "src": "https://picsum.photos/id/109/1200/800",
+        "caption": "Hand in hand",
+        "orientation": "landscape"
+      },
+      {
+        "src": "https://picsum.photos/id/110/900/1200",
+        "caption": "Our happy place",
+        "orientation": "portrait"
+      },
+      {
+        "src": "https://picsum.photos/id/111/1200/800",
+        "caption": "To love & laughter",
+        "orientation": "landscape"
+      },
+      {
+        "src": "https://picsum.photos/id/1080/900/1200",
+        "caption": "Made for each other",
+        "orientation": "portrait"
+      },
+      {
+        "src": "https://picsum.photos/id/1069/1200/800",
+        "caption": "Every little glance",
+        "orientation": "landscape"
+      },
+      {
+        "src": "https://picsum.photos/id/1050/900/1200",
+        "caption": "Home is you",
+        "orientation": "portrait"
+      }
+    ]
+  }
+}
+
+
